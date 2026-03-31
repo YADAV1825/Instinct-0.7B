@@ -76,8 +76,7 @@ The loss curves are saved in `training_log.txt` and `val_perplexity.txt`. Below 
 
 The entire pipeline used to train the model is fully reproducible. This includes the dataset pipeline, tokenizer creation, model architecture, TPU training loop, and checkpointing system.
 
-**Full training pipeline repository:** [train.py](https://github.com/YADAV1825/Instinct-0.5B/blob/main/train.py) *(Note: Please refer to the updated hyperparameters in the repository for the 0.7B configuration)*
-
+**Full training pipeline repository:** [train.py](https://github.com/YADAV1825/Instinct-0.5B/blob/main/train.py) 
 ---
 
 ### 🚀 Run Inference (Colab TPU/GPU)
